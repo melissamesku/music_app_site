@@ -11,13 +11,36 @@ html {
 }
 body {
 	background-color: #0a2345; 
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	background: #0a2345;
+  	background: linear-gradient(#0a2345, #000);
+}
+button {
+	border-radius: 20px;
+	border: 1px solid #11335f;
+	background-color: transparent;
+	font-size: .6em;
+	font-weight: 600;
+	color: #fff;
+	padding: 9px 35px;
+	margin: 20px 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #fff;
+	padding-top: 13px;
+	margin: 0;
+	font-weight: 400;
+}
+h1,h2 {
+	font-size: 1.7em;
+	margin-bottom: 25px;
 }
 
 /**********************************
 *             SECTIONS            *
 ***********************************/ 
 section {
+	padding: 10% 0;
 	display: block;
 	width: 100%;
 }
@@ -25,6 +48,11 @@ section {
 /* --------------------------------
 LANDING SECTION
 ----------------------------------*/ 
+section#landing {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
 
 /* --------------------------------
 DISPLAY SECTION
