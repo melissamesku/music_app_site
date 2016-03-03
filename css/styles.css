@@ -148,12 +148,19 @@ FOOTER
 /* --------------------------------
 TWO COLUMN LAYOUT
 ----------------------------------*/ 
-
+.col-half {
+    vertical-align: middle;
+    display: inline-block;
+    width: 49%;
+}
 /* --------------------------------
 THREE COLUMN LAYOUT
 ----------------------------------*/
-
-
+.col-thirds {
+	vertical-align: middle;
+    display: inline-block;
+    width: 33%;
+}
 
 
 
