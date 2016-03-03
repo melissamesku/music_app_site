@@ -57,7 +57,23 @@ section#landing {
 /* --------------------------------
 DISPLAY SECTION
 ----------------------------------*/
+section#display {
+	background-image: url(../images/display-background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	/*background: url(../images/display-background.png) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	background-size: cover;*/
 
+}
+section#display img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
 /* --------------------------------
 HEADPHONES SECTION
 ----------------------------------*/
