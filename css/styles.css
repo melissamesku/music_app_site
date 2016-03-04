@@ -212,9 +212,33 @@ img.slide-photo {
 	border-radius: 50%;
 }
 
-/* --------------------------------
+/* ------------------------------------------
 DOWNLOAD SECTION
-----------------------------------*/
+-------------------------------------------*/
+section#download {
+	background-color: #000;
+	margin: 0 auto;
+	text-align: center;
+}
+section#download img {
+	padding-top: 70px;
+	width: 65%;
+	margin-left: -10px;
+/*	display: block;
+	margin: 0 auto;*/
+}
+section#download button {
+	margin: 0 auto;
+	display: block;
+	margin-top: 70px;
+	padding: 9px 20px;
+}
+section#download p {
+	max-width: 420px;
+	text-align: center;
+	margin: 0 auto;
+}
+
 
 /* --------------------------------
 FOOTER 
