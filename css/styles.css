@@ -131,6 +131,24 @@ section#headphones img {
 /* --------------------------------
 FEATURES SECTION
 ----------------------------------*/
+section#features {
+	/*padding: 50px 0;*/
+	max-width: 900px;
+	margin: 0 auto;
+}
+section#features h1 {
+	text-align: center;
+	padding-bottom: 3em;
+}
+.features-mockup img {
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.features-subsection {
+	margin: 30px auto;
+	max-width: 270px;
+}
 
 /* --------------------------------
 SIDEWAYS SECTION
