@@ -119,6 +119,14 @@ section#display img {
 /* --------------------------------
 HEADPHONES SECTION
 ----------------------------------*/
+section#headphones .inner-container {
+	padding: 50px 0;
+	max-width: 450px;
+}
+section#headphones img {
+	width: 100%;
+	padding-right: 60px;
+}
 
 /* --------------------------------
 FEATURES SECTION
