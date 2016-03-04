@@ -8,6 +8,10 @@
     <meta name="keywords" content="Selus music app" />
     <meta name="author" content="Melissa Mesku" />
 	<title>Selus - Music App</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/slippry.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slippry.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
@@ -112,6 +116,44 @@
 	$(function() {
 		var hamburger = $("#nav-toggle").click(function(){
 			this.classList.toggle("active");
+		});
+		var slides = $("#slides").slippry({
+			// transition: 'fade',
+			// useCSS: true,
+			// speed: 1000,
+			// pause: 3000,
+			// auto: true,
+			// preload: 'visible',
+			// autoHover: false
+		});
+
+		$('.stop').click(function () {
+			slides.stopAuto();
+		});
+
+		$('.start').click(function () {
+			slides.startAuto();
+		});
+
+		$('.prev').click(function () {
+			slides.goToPrevSlide();
+			return false;
+		});
+		$('.next').click(function () {
+			slides.goToNextSlide();
+			return false;
+		});
+		$('.reset').click(function () {
+			slides.destroySlider();
+			return false;
+		});
+		$('.reload').click(function () {
+			slides.reloadSlider();
+			return false;
+		});
+		$('.init').click(function () {
+			slides = $("#slides").slippry();
+			return false;
 		});
 	});
 </script>
