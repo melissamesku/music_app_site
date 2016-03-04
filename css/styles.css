@@ -409,6 +409,9 @@ THREE COLUMN LAYOUT
 	}
 }
 @media only screen and (max-width: 510px) {
+	body {
+		margin-right: -12px;
+	}
 	p {
 		font-size: .7em;
 	}
@@ -461,6 +464,7 @@ THREE COLUMN LAYOUT
 		font-size: 1.3em;
 	}
 }
+
 
 
 
