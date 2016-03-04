@@ -1,5 +1,7 @@
 # music_app_site
 
+Visit the site: [http://selus.bitballoon.com/](http://selus.bitballoon.com/)
+
 **Overview**
 
 This one-page website was built according to the design specs of a given PSD file, [Coeluso landing page](https://www.behance.net/gallery/30778403/Coeluso-Mobile-and-Landing-Page). The mission was to turn the PSD file into a functional website with responsive styling and animations. 
