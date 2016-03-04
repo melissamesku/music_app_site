@@ -83,7 +83,7 @@ h3 {
 *                 SECTIONS                 *
 ********************************************/ 
 section {
-	padding: 8% 0;
+	padding: 11% 0;
 	display: block;
 	width: 100%;
 }
@@ -283,8 +283,6 @@ section#download img {
 	padding-top: 70px;
 	width: 65%;
 	margin-left: -10px;
-/*	display: block;
-	margin: 0 auto;*/
 }
 section#download button {
 	margin: 0 auto;
@@ -302,6 +300,7 @@ section#download p {
 FOOTER 
 -------------------------------------------*/
 footer {
+	padding-top: 60px;
 	margin: 0 auto;
 	max-width: 900px;
 	display: block;
@@ -393,11 +392,26 @@ THREE COLUMN LAYOUT
 	}
 }
 @media only screen and (max-width: 680px) {
+	footer ul.col-half {
+		display: block;
+		width: 100%;
+		text-align: right;
+	}
+	footer ul li a {
+		font-size: 1.4em;
+		padding: 0 0 0 7px;
+	}
+	p {
+		font-size: .6em;
+	}
 	.radial-gradient {
 		display: none;
 	}
 }
 @media only screen and (max-width: 510px) {
+	p {
+		font-size: .7em;
+	}
 	header, footer, section#features, section#sideways .sideways-container{
 		padding-left: 0px;
 	}
@@ -422,7 +436,7 @@ THREE COLUMN LAYOUT
 		text-align: center;
 		width: 400px;
 	}
-	section#display img {
+	section#display img#display-mockup {
 		width: 90%;
 	}
 	.col-thirds {
@@ -437,10 +451,6 @@ THREE COLUMN LAYOUT
 	section.col-half p {
 		padding: 0 0 0 8px;
 	}
-	footer ul li {
-		font-size: 5px;
-		padding-right: 10px;
-	}
 }
 @media only screen and (max-width: 400px) {
 	.col-thirds {
@@ -451,4 +461,6 @@ THREE COLUMN LAYOUT
 		font-size: 1.3em;
 	}
 }
+
+
 
