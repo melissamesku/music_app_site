@@ -1,6 +1,7 @@
 # music_app_site
 
 **Overview**
+
 This one-page website was built according to the design specs of a given PSD file, [Coeluso landing page](https://www.behance.net/gallery/30778403/Coeluso-Mobile-and-Landing-Page). The mission was to turn the PSD file into a functional website with responsive styling and animations. 
 
 **Features**
@@ -10,6 +11,7 @@ This one-page website was built according to the design specs of a given PSD fil
 - animated hamburger menu link using spans
 
 **Process**
+
 Starting with the PSD file, I manually saved all necessary assets for web. I then worked my way down the page, writing desktop-layout HTML and CSS for each section in order, refactoring as I went. Not having specifications outlined for responsive styling, I hand-wrote a series of media queries, eschewing tablet and phone breakpoints and working instead directly off the design. 
 
 **What I dig about it**
