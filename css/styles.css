@@ -149,9 +149,19 @@ section#features h1 {
 	max-width: 270px;
 }
 
-/* --------------------------------
+/* ------------------------------------------
 SIDEWAYS SECTION
-----------------------------------*/
+-------------------------------------------*/
+section#sideways {
+	background-image: url(../images/sideways-mockups.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+}
+section#sideways .sideways-container {
+	max-width: 900px;
+	margin: 0 auto;
+}
 
 /* ------------------------------------------
 TESTIMONIAL SECTION
