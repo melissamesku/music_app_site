@@ -346,9 +346,96 @@ THREE COLUMN LAYOUT
 
 
 
+/*******************************************
+*               MEDIA QUERIES              *
+********************************************/ 
 
-
-
-
+@media only screen and (max-width: 910px) {
+	header, footer, section#features, section#sideways .sideways-container{
+		max-width: 800px;
+	}
+    .col-thirds {
+    	width: 32.5%;
+    }
+    .features-mockup img {
+		width: 75%;
+		margin: 0 10% 0 10%;
+		display: block;
+	}
+}
+@media only screen and (max-width: 830px) {
+	header, footer, section#features, section#sideways .sideways-container{
+		max-width: 700px;
+	}
+	section#headphones .inner-container, section#features .features-subsection {
+		max-width: none;
+	}
+	section#headphones img {
+		width: 100%;
+		padding-right: 10px;
+	}
+}
+@media only screen and (max-width: 730px) {
+	header, footer, section#features, section#sideways .sideways-container, section#features .features-subsection{
+		margin: 0 10px;
+	}
+	#nav-toggle {
+		padding-right: 30px;
+	}
+}
+@media only screen and (max-width: 510px) {
+	header, footer, section#features, section#sideways .sideways-container{
+		padding-left: 0px;
+	}
+	section#sideways .sideways-container p, section#headphones .inner-container p, section#download p {
+		text-align: justify;
+		margin: 0 8px;
+	}
+	section#download p {
+		max-width: none;
+		text-align: center;
+	}
+	section#headphones img {
+		width: 70%;
+		display: block;
+	}
+	section#features .features-mockup {
+		display: none;
+	}
+	section#features .icon, section#features h3 {
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+		width: 400px;
+	}
+	section#display img {
+		width: 90%;
+	}
+	.col-thirds {
+		width: 49%;
+	}
+	section .col-half{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	section.col-half p {
+		padding: 0 0 0 8px;
+	}
+	footer ul li {
+		font-size: 5px;
+		padding-right: 10px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.col-thirds {
+		display: block;
+		width: 100%;
+	}
+	h1,h2 {
+		font-size: 1.3em;
+	}
+}
 
 
