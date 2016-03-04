@@ -17,7 +17,7 @@ body {
 }
 button {
 	border-radius: 20px;
-	border: 1px solid #11335f;
+	border: 1px solid #164077;
 	background-color: transparent;
 	font-size: .6em;
 	font-weight: 600;
@@ -25,20 +25,60 @@ button {
 	padding: 9px 35px;
 	margin: 20px 0;
 }
+button:hover {
+	background-color: #164077;
+	-webkit-transition: all 300ms ease-in;
+       -moz-transition: all 300ms ease-in;
+         -o-transition: all 300ms ease-in;
+            transition: all 300ms ease-in;
+}
+p {
+	font-size: .5em;
+	color: #435670;
+	line-height: 2.8em;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
 h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 	padding-top: 13px;
 	margin: 0;
 	font-weight: 400;
 }
-h1,h2 {
+h1 {
+	font-size: 1.2em;
+	font-weight: 800;
+}
+h1 img {
+	vertical-align: middle;
+	margin-right: 15px;
+	width: 50px;
+}
+h2 {
 	font-size: 1.7em;
 	margin-bottom: 25px;
 }
+span.bright-blue {
+	color: #2a5da3;
+}
+span.blue {
+	color: #11335f;
+}
+h3 {
+	font-size: .9em;
+	font-weight: 100;
+}
+.icon {
+	max-width: 28px;
+}
+
+
 
 /*******************************************
 *                 SECTIONS                 *
-********************************************/
+********************************************/ 
 section {
 	padding: 10% 0;
 	display: block;
@@ -47,10 +87,17 @@ section {
 
 /* ------------------------------------------
 HEADER 
--------------------------------------------*/
+--------------------------------------------*/ 
 header {
 	max-width: 900px;
 	margin: 0 auto;
+	padding-top: 10px;
+}
+header:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+  	zoom: 1; 
 }
 #nav-toggle{
 	float: right;
@@ -59,20 +106,23 @@ header {
   	cursor: pointer;
   	border-radius: 1px;
   	height: 2px;
- 	width: 28px;
+ 	width: 22px;
   	background: #2a5da3;
  	position: absolute;
   	display: block;
   	content: '';
 }
 #nav-toggle span:before {
-  	top: -10px;
+  	top: -7px;
 }
 #nav-toggle span:after {
-  	bottom: -10px; 
+  	bottom: -7px; 
 }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  	transition: all 500ms ease-in-out;
+  	-webkit-transition: all 500ms ease-in-out;
+       -moz-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+            transition: all 500ms ease-in-out;
 }
 #nav-toggle.active span {
   	background-color: transparent;
@@ -81,15 +131,23 @@ header {
   	top: 0;
 }
 #nav-toggle.active span:before {
-  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+  	   -moz-transform: rotate(45deg);
+  	    -ms-transform: rotate(45deg);
+  	     -o-transform: rotate(45deg);
+  	        transform: rotate(45deg);
 }
 #nav-toggle.active span:after {
-  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+  	   -moz-transform: rotate(-45deg);
+  	    -ms-transform: rotate(-45deg);
+  	     -o-transform: rotate(-45deg);
+  	        transform: rotate(-45deg);
 }
 
 /* ------------------------------------------
 LANDING SECTION
--------------------------------------------*/
+-------------------------------------------*/ 
 section#landing {
 	text-align: center;
 	margin: 0 auto;
@@ -116,6 +174,7 @@ section#display img {
 	display: block;
 	margin: 0 auto;
 }
+
 /* ------------------------------------------
 HEADPHONES SECTION
 -------------------------------------------*/
@@ -135,17 +194,17 @@ section#features {
 	max-width: 900px;
 	margin: 0 auto;
 }
-section#features h1 {
+section#features h2 {
 	text-align: center;
 	padding-bottom: 3em;
 }
 .features-mockup img {
 	width: 65%;
-	margin: 0 auto;
+	margin: 0 10% 0 10%;
 	display: block;
 }
 .features-subsection {
-	margin: 30px auto;
+	margin: 30px 0;
 	max-width: 270px;
 }
 
@@ -264,13 +323,12 @@ footer ul.copyright {
 
 
 
-
 /*******************************************
 *                  COLUMNS                 *
 ********************************************/ 
 
 /* ------------------------------------------
-TWO COLUMN LAYOUT 
+TWO COLUMN LAYOUT
 -------------------------------------------*/
 .col-half {
     vertical-align: middle;
@@ -278,34 +336,13 @@ TWO COLUMN LAYOUT
     width: 49%;
 }
 /* ------------------------------------------
-THREE COLUMN LAYOUT 
+THREE COLUMN LAYOUT
 -------------------------------------------*/
 .col-thirds {
 	vertical-align: middle;
     display: inline-block;
     width: 33%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
