@@ -162,12 +162,6 @@ section#display {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
-	/*background: url(../images/display-background.png) no-repeat center center; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	background-size: cover;*/
-
 }
 section#display img {
 	width: 60%;
@@ -198,14 +192,20 @@ section#features h2 {
 	text-align: center;
 	padding-bottom: 3em;
 }
+.features-subsection {
+	margin: 30px 0;
+	max-width: 270px;
+}
 .features-mockup img {
 	width: 65%;
 	margin: 0 10% 0 10%;
 	display: block;
 }
-.features-subsection {
-	margin: 30px 0;
-	max-width: 270px;
+.radial-gradient {
+	background: url(../images/radial-gradient.png) no-repeat center center;
+	background-size: 50%;
+	height: 130px;
+	margin: -70px 0 0 -40px;
 }
 
 /* ------------------------------------------
@@ -262,9 +262,6 @@ p.testimonial-text {
 img.slide-photo {
 	width: 40px;
 	vertical-align: middle;
-	/*position: absolute;
-	top: 50%;
-	left: 50%;*/
 	display: inline;
 	margin: 0px 15px 0 0;
 	text-align: center;
@@ -362,6 +359,9 @@ THREE COLUMN LAYOUT
 		margin: 0 10% 0 10%;
 		display: block;
 	}
+	.radial-gradient {
+		margin: -65px 0 0 -30px;
+	}
 }
 @media only screen and (max-width: 830px) {
 	header, footer, section#features, section#sideways .sideways-container{
@@ -374,6 +374,9 @@ THREE COLUMN LAYOUT
 		width: 100%;
 		padding-right: 10px;
 	}
+	.radial-gradient {
+		margin: -85px 0 0 -30px;
+	}
 }
 @media only screen and (max-width: 730px) {
 	header, footer, section#features, section#sideways .sideways-container, section#features .features-subsection{
@@ -381,6 +384,14 @@ THREE COLUMN LAYOUT
 	}
 	#nav-toggle {
 		padding-right: 30px;
+	}
+	.radial-gradient {
+		margin: -75px 0 0 -25px;
+	}
+}
+@media only screen and (max-width: 680px) {
+	.radial-gradient {
+		display: none;
 	}
 }
 @media only screen and (max-width: 510px) {
@@ -402,7 +413,7 @@ THREE COLUMN LAYOUT
 	section#features .features-mockup {
 		display: none;
 	}
-	section#features .icon, section#features h3 {
+	section#features .icon, section#features {
 		margin: 0 auto;
 		display: block;
 		text-align: center;
@@ -437,5 +448,4 @@ THREE COLUMN LAYOUT
 		font-size: 1.3em;
 	}
 }
-
 
