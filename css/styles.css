@@ -36,18 +36,18 @@ h1,h2 {
 	margin-bottom: 25px;
 }
 
-/**********************************
-*             SECTIONS            *
-***********************************/ 
+/*******************************************
+*                 SECTIONS                 *
+********************************************/
 section {
 	padding: 10% 0;
 	display: block;
 	width: 100%;
 }
 
-/* --------------------------------
+/* ------------------------------------------
 HEADER 
-----------------------------------*/ 
+-------------------------------------------*/
 header {
 	max-width: 900px;
 	margin: 0 auto;
@@ -87,18 +87,18 @@ header {
   	transform: rotate(-45deg);
 }
 
-/* --------------------------------
+/* ------------------------------------------
 LANDING SECTION
-----------------------------------*/ 
+-------------------------------------------*/
 section#landing {
 	text-align: center;
 	margin: 0 auto;
 	display: block;
 }
 
-/* --------------------------------
+/* ------------------------------------------
 DISPLAY SECTION
-----------------------------------*/
+-------------------------------------------*/
 section#display {
 	background-image: url(../images/display-background.png);
 	background-repeat: no-repeat;
@@ -116,9 +116,9 @@ section#display img {
 	display: block;
 	margin: 0 auto;
 }
-/* --------------------------------
+/* ------------------------------------------
 HEADPHONES SECTION
-----------------------------------*/
+-------------------------------------------*/
 section#headphones .inner-container {
 	padding: 50px 0;
 	max-width: 450px;
@@ -128,9 +128,9 @@ section#headphones img {
 	padding-right: 60px;
 }
 
-/* --------------------------------
+/* ------------------------------------------
 FEATURES SECTION
-----------------------------------*/
+-------------------------------------------*/
 section#features {
 	max-width: 900px;
 	margin: 0 auto;
@@ -239,27 +239,47 @@ section#download p {
 	margin: 0 auto;
 }
 
-
-/* --------------------------------
+/* ------------------------------------------
 FOOTER 
-----------------------------------*/
+-------------------------------------------*/
+footer {
+	margin: 0 auto;
+	max-width: 900px;
+	display: block;
+	background-color: #000;
+}
+footer ul {
+	display: inline-block;
+}
+footer ul li{
+	padding: 0 6px 0 0;
+	font-size: .5em;
+	color: #164077;
+	display: inline-block;
+	list-style-type: none;
+}
+footer ul.copyright {
+	text-align: right;
+}
 
 
-/**********************************
-*             COLUMNS             *
-***********************************/ 
 
-/* --------------------------------
-TWO COLUMN LAYOUT
-----------------------------------*/ 
+
+/*******************************************
+*                  COLUMNS                 *
+********************************************/ 
+
+/* ------------------------------------------
+TWO COLUMN LAYOUT 
+-------------------------------------------*/
 .col-half {
     vertical-align: middle;
     display: inline-block;
     width: 49%;
 }
-/* --------------------------------
-THREE COLUMN LAYOUT
-----------------------------------*/
+/* ------------------------------------------
+THREE COLUMN LAYOUT 
+-------------------------------------------*/
 .col-thirds {
 	vertical-align: middle;
     display: inline-block;
