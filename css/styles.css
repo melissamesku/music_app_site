@@ -132,7 +132,6 @@ section#headphones img {
 FEATURES SECTION
 ----------------------------------*/
 section#features {
-	/*padding: 50px 0;*/
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -154,9 +153,54 @@ section#features h1 {
 SIDEWAYS SECTION
 ----------------------------------*/
 
-/* --------------------------------
+/* ------------------------------------------
 TESTIMONIAL SECTION
-----------------------------------*/
+-------------------------------------------*/
+section#testimonial {
+	height: 366px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+}
+.slide-1 {
+	background-image: url(../images/testimonial-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	min-height: 380px;
+}
+.slide-2 {
+	background-image: url(../images/testimonial-background-reversed.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100% ;
+	min-height: 380px;
+}
+p.slide-text {
+	text-align: center;
+	color: #607187;
+	font-size: 1em;
+	line-height: 2.2em;
+	max-width: 620px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+p.testimonial-text {
+	text-align: center;
+	padding-top: 30px;
+}
+img.slide-photo {
+	width: 40px;
+	vertical-align: middle;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;*/
+	display: inline;
+	margin: 0px 15px 0 0;
+	text-align: center;
+	border-radius: 50%;
+}
 
 /* --------------------------------
 DOWNLOAD SECTION
