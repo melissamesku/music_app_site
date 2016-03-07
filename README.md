@@ -41,6 +41,6 @@ Starting with the PSD file, I manually saved all necessary assets for web. I the
 **Known issues**
 - The radial gradient (under a mockup of a phone in the features section) I tried wrestling with in CSS but to no avail; I haven't yet figured out how to change the angled view aspect of the gradient. I ended up settling with a .png of the radial from Photoshop. At the 680px breakpoint, I got rid of the radial with `display:none` because it starts to compete with the surrounding text. 
 - I made an executive decision to forego the aforementioned phone element at the 510px breakpoint because the layout gets a bit crowded and I felt the image had been represented enough in other places throughout the site. A better solution might be to make the phone element pop out of the columns and appear above instead. 
-- Also at the 510px breakpoint, the section I call "sideways" has text overlay a .png. I think it looks cool but it definitely has readability issues.
+- Also at the 510px breakpoint, the section I call "sideways" has text on top of a .png. I think it looks cool but it should be adjusted to fix readability issues.
 - The hamburger menu link spans are clickable while the space between them is not; this makes the menu totally functional for touch-based interaction but less than ideal for mouse clicks which are more precise.
 - The design would be more complete were I to build out a fake menu for that hamburger button to link to. 
